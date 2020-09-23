@@ -1,0 +1,180 @@
+<resources>
+    <!--    todo somebody translate them to English later-->
+
+
+    <!--    Norm: the string fields need to have the same name as corresponding String key of maps
+     in GameConstant so that they can be read and are good for future extension; Anywise, the
+     exceptions are handled in case of invalid naming.-->
+
+    <string name="app_name">UofTLife</string>
+
+    <string name="back">Back</string>
+    <string name="menu">Menu</string>
+    <string name="save">Save</string>
+    <string name="quit">Quit</string>
+    <string name="save_alert">Are you sure you want to save this progress? Your existing game file will be overwritten. Click again to save.</string>
+    <string name="quit_alert">Are you sure you want to quit this game without saving? You will lose your current progress since last saving. Click again to quit anywise.</string>
+    <string name="save_success">Your file is saved successfully!</string>
+    <string name="save_error">Error occurred. Please try again later.</string>
+    <string name="save_disable">Cannot save during a level of game.</string>
+    <string name="give_up">If you want to do it now, click on me and give up current progress.</string>
+    <string name="start">Start New Game</string>
+    <string name="load">Load from Files</string>
+    <string name="load_alert">You have not started any game so you do not have game file to load.</string>
+    <string name="help">Instruction</string>
+    <string name="ready">Go</string>
+    <string name="clear">Clear all files</string>
+    <string name="clear_success">Successfully cleared your game files.</string>
+    <!--todo whole instruction-->
+    <string name="whole_instruction">
+        Welcome to your life at University of Toronto!
+You can adjust the game difficulty and allocate your talent points to customize your game experience, and your academic performance will be assessed at the end of the semester.
+Your GPA is in your hands now. Good luck!
+    </string>
+
+
+    <string name="pause">Status</string>
+    <string name="build_character">Build New Character</string>
+
+    <string name="difficulty">Game Difficulty</string>
+    <string name="difficulty_instruction">Difficulty of game influences the number of allocatable fated resources point. \n\n
+        [%1$s] -> %2$d\n
+        [%3$s] -> %4$d\n
+        [%5$s] -> %6$d</string>
+    <string name="diff_easy">easy</string>
+    <string name="diff_medium">medium</string>
+    <string name="diff_hard">hard</string>
+    <string name="name">Name</string>
+
+    <string name="allocation">Allocation</string>
+    <string name="allocation_instruction">分配主人公的背景资源，并根据点数，随机得到%1$d条正面或负面的角色特性。</string>
+
+    <string name="fated_resources">Fated Resources</string>
+    <string name="free_points">Free Points</string>
+    <!--  进入游戏之后不会再变化的属性-->
+    <string name="wealth">Wealth</string>
+    <string name="stamina">Stamina</string>
+    <string name="aspiration">Aspiration</string>
+    <string name="intellect">Intellect</string>
+    <string name="fortune">Fortune</string>
+
+    <!--随机生成的特性/天赋-->
+    <string name="randomize">Rand.</string>
+    <string name="characteristic">Characteristic</string>
+    <string name="ch_alert">You have not allocated all free points!</string>
+
+
+    <!--  时间=游戏进度，也是唯一永远递减的资源；不受加点影响-->
+    <string name="time">Time Blocks</string>
+    <!--手动操作（进入关卡、按通关情况）而变化的资源/属性-->
+    <string name="money">Money</string>
+    <string name="understanding">Understanding</string>
+    <string name="mark">Marks</string>
+
+    <!--随时间而自动降低，也会因为关卡和角色特性而产生变化-->
+    <string name="vitality">Vitality</string>
+    <string name="repletion">Repletion</string>
+    <string name="practice">Practice</string>
+
+    <!--隐藏的参数，由上面的属性通过某些规则以及一定的随机性计算得到，玩家无法直接影响。只能看到阶段性状态-->
+    <string name="health">Health Condition</string>
+    <string name="mood">State of Mind</string>
+    <string name="GPA">GPA</string>
+
+    <!--    暂停和状态界面显示的-->
+    <string name="time_display">Time Blocks Left for this semester:</string>
+
+    <!--    状态-->
+    <string name="status_starving">%1$s is starving and need to eat!</string>
+    <string name="status_exhausted">%1$s is too exhausted to do anything.</string>
+    <string name="status_sick">%1$s is sick. Feels so bad.</string>
+    <string name="status_bad_mood">%1$s is in bad temper.</string>
+    <string name="status_good_mood">%1$s feels so happy these days.</string>
+    <string name="status_study_alert">%1$s needs to study…</string>
+    <string name="status_has_due">%1$s has a deadline upcoming. Click to start.</string>
+    <string name="status_default">All is well.   \n—%1$s</string>
+
+
+    <!--    一些活动和事件-->
+    <string name="random_event">Random Events</string>
+    <string name="die_starving">%1$s died because of starving for too long time…</string>
+
+
+    <string name="assignment">Assignment %1$s</string>
+    <string name="exam">Test %1$s</string>
+    <string name="assign"> is posted.</string>
+    <string name="worth">It is worth %1$d marks.</string>
+    <string name="due">Deadline is at %1$d time blocks leave.</string>
+    <string name="date">It is to take on %1$s.</string>
+    <string name="do_ass">Check and do it now</string>
+
+    <!--    把自己事件要显示的用语写在下方，不要写在 activity 内部，到时候方便统一翻译-->
+    <string name="scene_home">Home</string>
+    <string name="scene_mall">Mall</string>
+    <string name="scene_school">UofT</string>
+
+    <string name="walk_spend_time">Walk to %1$s will take %2$d time blocks.</string>
+
+    <string name="event">%1$s want to</string>
+    <string name="lecture">Take courses</string>
+    <string name="review">Review</string>
+    <string name="sleep">Sleep</string>
+    <string name="shopping">Shopping</string>
+    <string name="work">Do part time job</string>
+
+    <string name="activity_spend_time">Doing this will take %1$d time blocks.</string>
+
+    <!--    transition pages texts-->
+    <string name="semester">Semester start…</string>
+    <string name="tuition">The new semester is coming. As we all know, tuition fee for international students is really high… \n Anyway, good luck and survive!</string>
+
+    <!-- GameSleep  -->
+    <string name="todo" />
+    <string name="blanket" />
+    <string name="_00_15" />
+    <string name="gameconfig" />
+    <string name="tap">Keep Tapping!</string>
+
+    <string name="game_sleep_title">Get Up! </string>
+    <string name="game_sleep_description"> Keep tapping the alarm to wake up! /n
+        *Alarm might change position.</string>
+    <string name="game_sleep_pass">Congratulations! </string>
+    <string name="game_sleep_pass_description">You successfully got up</string>
+    <string name="game_sleep_fail">Uh oh</string>
+    <string name="game_sleep_fail_description">Your failed to get up</string>
+
+
+    <string name="logout">logout</string>
+    <string name="logout_info">Do you want to log out?</string>
+    <string name="login">LogIn</string>
+    <string name="username_empty">username can not be empty</string>
+    <string name="username_not_exist_error">username not exist</string>
+    <string name="password_empty">password can not be empty</string>
+    <string name="password_not_right">password not right</string>
+    <string name="login_success">login successfully</string>
+    <string name="username_exist_error">username has existed</string>
+    <string name="password_again_empty">password again can not be empty</string>
+    <string name="two_password_not_equal">two passwords are not equal</string>
+    <string name="unknown_error">unknown error</string>
+    <string name="sign_up_success">sign up successfully</string>
+
+    <!-- GameCard -->
+    <string name="sccore">Score:</string>
+    <string name="card">Try to find all matched cards</string>
+    <string name="understanding_value">Your understanding value has increased by</string>
+    <string name="practice_value">Your practice value has increased by</string>
+    <string name="time_value">Your time has decreased by</string>
+    <string name="energy_value">Your energy has decreased by</string>
+
+    <!-- gamework  -->
+    <string name="gamework">Work Summary</string>
+    <string name="summary">Good job!</string>
+
+    <!-- ShoppingMall-->
+    <string name="bread"> item bread, costs you 5 dollars and helps you to gain 20 repletion :</string>
+    <string name="coffee"> item coffee,costs 3 dollars and helps you to gain 10 vitality:</string>
+    <string name="bubbletea"> item bubbletea, costs 8 dollars and helps you to gain 10 happiness:</string>
+    <string name="book"> item book, costs you 100, helps you to gain 5 knowledge but loses 20 happiness:</string>
+    <string name="lipstick"> item lipstick, costs 50 dollars and gains 15 happiness:</string>
+
+</resources>

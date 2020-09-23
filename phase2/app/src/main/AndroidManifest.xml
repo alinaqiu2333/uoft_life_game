@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uoftlife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+I don't know why child activity doesn't inherit their father's theme and launchMode,
+that I have to declare them again and again manually
+        -->
+        <activity
+            android:name=".floating.FloatingActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.PauseDisplayActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.ConfigActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.EventSelectActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.MallEventActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.SchoolEventActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.HomeEventActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".floating.DifficultySelectActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Float" />
+        <activity
+            android:name=".GameBaseActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".gamework.CollectCoinActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gamemap.MapActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".user.LoginActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".user.RegisterActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".gamacard.GameCardActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".gamesleep.GameSleepActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".transpage.SemesterStartPageActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".transpage.InstructionPageActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".shoppingmall.ShoppingMallActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".transpage.AssignmentPageActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".gamestudy.GameStudyActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".transpage.CommonPageActivity"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>
